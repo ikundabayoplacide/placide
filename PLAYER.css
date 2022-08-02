@@ -1,0 +1,57 @@
+.{
+    margin: 0;
+    padding: 0;
+    }
+    .main{
+        background-image: url("../css/PLAYER.JPG");
+        width: 100%;
+        color: blueviolet;
+        height:99%;
+        background-position: center;
+        background-size: cover;
+    }
+    ul{
+        float:left;
+        margin-top: -600px;
+    }
+    ul li{
+       
+     display: inline-block;
+    font-size: 30;
+    font-family:Arial ;
+    }
+    ul li a{
+        font-style: oblique;
+        padding: 20px;
+        border: 2px;
+        color: rgb(18, 19, 18);
+        font-size: 20;
+        font-family: Arial;
+    }
+    ul li a:hover{
+        color: rgb(102, 32, 32);
+        font-size: 20;
+        background-color: rgb(206, 238, 238);
+        font-family: 'Courier New';
+        transition: 0;
+        
+    }
+   
+    .about a{
+       font-style: oblique;
+    color: rgb(163, 53, 105);
+        float:right;
+        font-size: 20;
+        border: 1px;
+        margin: 5PX;
+        padding: 30px;
+        margin-top: -630px;
+    }
+    a:hover{
+       
+        color: rgb(16, 19, 155);
+    }
+    UL{
+        padding: 0;
+    }
+    
