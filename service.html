@@ -1,0 +1,89 @@
+<html>
+    <head>
+
+   
+    
+  <STYle>
+
+    label{
+      font-size: 25;
+      font-family: Arial, Helvetica, sans-serif;
+      color: rgb(21, 55, 207);
+      border: 1px;
+    }
+    a{
+        padding: 20px;
+        background-color: rgb(206, 91, 91);
+font-size: 20;
+font-style: oblique;
+color: rgb(10, 228, 46);
+border: 2px;
+    }
+    body{
+        background-image:url(../photos/PLAYER.JPG);
+    }
+    form{
+       
+       background-size: cover;
+       background-repeat: no-repeat;
+       align-items: baseline;
+       text-align: left;
+       background-color: rgb(115, 165, 34);
+       font-style: oblique;
+       border-radius: 50px;
+       width: 400px;
+       height: 500px;
+       padding: 10px;
+       left: 50px;
+   }
+  </STYle>
+   </head>
+  <body>
+    <a href="home.html">  BACK TO HOME</a>
+    <form action="../php/signup.php" method="post">
+        <p><i> <h1> we help you to reach on your  goals if your a player, refer or team_manager</h1></i></p>
+          <label>First name:</label>
+        
+            <input type="text" placeholder=" first name" name="firstname" />
+            <br>
+      
+          <label>Last name:</label>
+        
+            <input type="text" placeholder="second name" name="lastname" />
+            <br>
+    
+          <label>Phone:</label>
+            <input type="phone" placeholder="078-----" name="number" />
+        <br>
+          <label>Gender:</label>
+            <input type="radio" name="gender" value="male"/>male
+            <input type="radio" name="gender" value="female"/>female
+       <br>
+          <label>Email:</label>
+            <input type="email" placeholder="example@gmail.com" name="email"/>
+       <br>
+          <label>Password:</label>
+          
+            <input type="password" placeholder="--------" name="password"/>
+        <br>
+          <label>Date of birth:</label>
+            <input type="date" name="date_of_birth" />
+      <br>
+            <label>Category:</label>
+                <select name="category">
+             <option value="player"> player </option>
+             <option  value="refer"> refer </option>
+             <option  value="team_manager"> team_manager</option>
+        </select>
+     
+       <br>
+       <br>
+           <button type="submit"> SIGN_UP</button>
+           
+       
+          
+       
+    </form>
+
+  </body>
+</html>
