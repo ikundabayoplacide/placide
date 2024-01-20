@@ -1,0 +1,112 @@
+button{
+    border-radius: 7px;
+    font-size: 20px;
+    color: rgb(243, 246, 248);
+    text-align: center;
+}
+button:hover{
+    transition: 0.4s ease-in-out;
+    background-color: #0a2e01;
+}
+
+.click{
+  
+    color: white;
+    text-decoration: none;
+    text-align: center;
+  
+}
+.sticky{
+    color: rgb(251, 250, 250);
+    font-size: 30px;
+    top: 0;
+    position: sticky;
+    background-color: rgba(5, 39, 5, 0.962);
+    text-align: center;
+}
+#head{
+    font-size: 35px;
+    background-color: black;
+    color: white;
+    text-align: center;
+   
+}
+#electronic{
+    display:flex;
+    background-color: black;
+    color: white;
+}
+#electronic div{
+    margin-left: 5px;
+}
+.navigation{
+    width: 100%;
+    height: 60px;
+    background-color:rgb(191, 125, 18);
+    position: sticky;
+    border-radius: 5px; 
+}
+
+.navigation ul li{
+   justify-content: center;
+    display:inline;
+ 
+}
+.navigation ul li a{
+    padding: 15px;
+    color: #fff;
+    text-decoration: none;
+    font-family:'Times New Roman';
+    font-weight: 10px;
+    font-size: 22px;
+  
+    }
+.navigation ul li a:hover{
+    transition:  0.7s ease;
+    color: rgb(0, 0, 0);
+}
+p{
+    font-size: medium;
+}
+u{
+    color: rgb(233, 144, 42);
+}
+#electronic p u{
+    color: rgb(233, 144, 42);
+    font-size: 20px;
+}
+@media (max-width:1200px){
+    .navigation ul li a{
+        padding: 1px;
+        font-weight: 5px;
+        font-size: 13px;
+        margin-left: 12px;
+      
+        }
+        .navigation{
+            height: 30px;
+        }
+        #head{
+            font-size: 17px;
+            text-align: center;
+        }
+        #electronic p u{
+            font-size: 20px;
+            margin-left: 10px;
+            
+        }
+        #electronic img{
+            margin-left: -15px;
+            width: 248px;
+            height: 200px;
+            margin-left: 2px;
+        }
+        #electronic p{
+            font-size: 20px;
+            margin-left: 2px;
+        }
+   #machine{
+    display: none;
+   }
+  
+}

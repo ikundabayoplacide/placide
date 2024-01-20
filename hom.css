@@ -1,0 +1,178 @@
+*
+{
+    // 
+    padding: 0%;
+    margin: 0%;
+}
+ body{
+    background-image: url(1.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+} 
+p{
+ font-size: 35;
+color:rgba(7, 7, 7, 0.908);
+    
+}
+img{
+    height: 80%;
+    width: 50%;
+}
+.sign{
+float: right;
+  margin-left: -60px;
+  padding: 13px;
+  word-spacing: 30px;
+  font-size: 25px;
+  text-decoration: none;
+ 
+}
+.logo{
+position: relative;
+top:-40px;
+   width:450px;
+   height:150px;
+   margin-left: -120px;
+   
+}
+.menu{
+ margin-top: 0px;
+ background-color: rgb(243, 235, 235);
+text-align: center;
+position: fixed;
+width: 100%;
+padding: 0px;
+height: 120px;
+
+}
+
+.menu ul{
+    font-size: 25px;
+    font-style:oblique;
+    font-family: Arial;
+    text-align: left;
+    display: inline-flex;
+     list-style: none;
+    margin-right: 10px;
+}
+.menu ul li{
+    padding: 0px;
+    margin: 20px;
+    margin-top: 40px;
+   
+}
+.menu ul li a{
+    
+    color: rgb(8, 8, 8);
+    text-decoration: none;
+    font-style: oblique;
+    
+
+}
+.menu ul li a:hover{
+                                
+    color: rgb(8, 8, 8);
+    background-color: rgb(246, 246, 250);
+}
+.guy{
+    border-radius: 50%;
+    margin-top: -30px;
+    float: right;
+    margin-right: 20px;
+    width: 50px;
+    height: 50px;
+}
+.boddy{
+    position: relative;
+    border-radius: 60px;
+    background-color: rgb(234, 235, 241);
+    width: 400px;
+    height: 340px;
+    padding: 10px;
+    font-size: 25;
+    text-transform: capitalize;
+    text-overflow: ellipsis;
+    text-align: center; 
+    top: 130px;
+}
+   .myButton{
+    margin-top: 0px;
+    width: 140px;
+    height: 50px;
+    border-radius: 5px;
+    border-color:rgb(0, 255, 255);
+    font-size: 23px;
+    cursor: pointer;
+   }
+   .see{
+   
+    border-radius: 5px;
+    padding: 10px;
+    color: rgb(0, 0, 0);
+    font-family:'Courier New', Courier, monospace;
+    font-size:35px;
+    text-decoration: none;
+   }
+   .dropbtn{
+    padding: 3px;
+    width: 120px;
+    border-radius: 4px;
+    font-size: 23px;
+    border: none;
+    
+  }
+   .dropdown{
+    position: relative;
+    display: inline-block;
+   }
+   .dropdown-content{
+    
+    display:none;
+    position:absolute;
+    background-color: #faf4f4;
+    width: max-content;
+    text-transform: lowercase;
+   }
+  
+.dropdown-content a {
+    color: rgb(255, 255, 255);
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  .dropdown-content a:hover {
+    background-color: #ffffff;
+    }
+    .dropdown:hover .dropdown-content {
+        display: block;
+      }
+  @media (max-width:1200px){ 
+    .logo{
+        top:-60px;
+        margin-left: -70px;
+           
+        }
+        .menu ul{
+            font-size: 15px;
+            margin-right: 10px;
+        }
+        .menu ul li{
+            margin-left:-49px;
+            margin-top: 30px;
+            font-size: 18px
+        }
+        .dropbtn{
+            margin-left: 80px;
+            font-size: 23px;
+            margin-top: -5px;
+        }
+        .menu ul li a{
+           margin-right: 30px;
+            margin-left: 30px;
+            
+            
+        
+        }
+ }
+ 

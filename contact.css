@@ -1,0 +1,84 @@
+*{
+    
+    padding: 0;
+    margin-left: 6px;
+}
+body{
+    margin-top: -2px;
+    background-image: url('comp3.jpg');
+}
+u{
+    font-size: 35px;
+}
+.contact{
+    height: 540px;
+    border-radius: 7px;
+    background-color: rgb(243, 235, 235);
+    border: 2px solid color(white);
+    margin-top: 20px;
+    width: 830px;
+    margin-left: 200px;
+}
+.company{width: 800px;}
+.select{
+width: 800px;
+height: 30px;
+border: none;
+border-radius: 3px;}
+.email{
+    width: 800px;
+}
+.number{
+    width: 800px;
+}
+.message{
+    width: 800px;
+    border: none;
+    border-radius: 6px;
+    height:90px;
+}
+input{
+    width: 300px;
+    height: 30px;
+    border: none;
+    border-radius: 5px;
+}
+label{
+    font-weight: bold;
+    
+}
+
+p{
+ margin-bottom: 30px;
+    margin-left: 30px;
+    font-size: 20px;
+}
+.button{
+    border: 2px solid;
+    border-radius: 5px;
+}
+@media (max-width:1200px){
+    .contact{
+        margin-top: 20px;
+        width: 830px;
+        margin-left: 60px;
+        height: 800px;
+    }
+    h1 u{
+        font-size: 45px;
+      margin-left: 20%;
+    }
+    input{
+        width: 300px;
+        height: 40px;
+        border: none;
+        border-radius: 5px;
+    }
+    label{
+        font-weight: bold;
+        font-size: 25px;
+    }
+    .call{
+        font-weight: bolder;
+    }
+}

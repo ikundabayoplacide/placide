@@ -1,0 +1,37 @@
+*{
+    margin: 0%;
+    padding: 0%;
+
+}
+.start li{
+    width: max-content;
+    display:inline-flex;
+    word-spacing: 30px;
+    padding: 10px;
+    background-color: aquamarine;
+}
+.down{
+    position: relative;
+    display:inline-block;
+  
+}
+.dropcontent{
+    display: none;
+    position: absolute;
+    width: 100px;
+    text-transform: none;
+}
+.dropcontent a{
+    margin-top: 9px;
+    display: block;
+    padding: 12px 16px;
+}
+.dropbtn{
+    padding:2px;
+    width: 100px;
+
+}
+.down:hover .dropcontent{
+    display: block;
+}
+

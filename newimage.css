@@ -1,0 +1,54 @@
+
+.first{
+    margin-bottom: 10px;
+    height: 100%;
+    width: auto;
+    object-fit: cover;
+    float: left;
+}
+.second{
+    float: left;
+}
+
+
+.four{
+    float:left ;
+}
+.buton{
+    margin-top: 15px;
+    padding: 5px;
+    border-radius: 5px;
+    text-overflow: ellipsis;
+    font-size:25px;
+    font-family: 'Courier New';
+    border: 2px solid #df660f;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+   
+
+}
+.buton a{
+    text-decoration: none;
+}
+.buton:hover{
+    background-color: rgb(159, 153, 153);
+    color: rgb(0, 0, 0);
+    transition: 0.4s ease;
+
+}
+h2{
+    position: sticky;
+    text-align: center;
+    font-size: large;
+    color:rgb(23, 23, 24);
+    font-family: 'Gill Sans', 'Gill Sans MT';
+    text-transform: uppercase;
+   padding-top: 10px;
+   margin-top:-20px;
+}
+
+h1{
+    text-align: center;
+    margin-top: -50px;
+}

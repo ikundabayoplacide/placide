@@ -1,0 +1,86 @@
+body{
+    margin: 0;
+    padding: 0;
+    background:linear-gradient(to right, rgb(71, 80, 247), rgb(133, 66, 250));
+  
+}
+.one{
+    margin-left: 30%;
+    align-items: center;
+    display: flex;
+    border-radius: 15px;
+    margin-top: 0%;
+    padding: 20px;
+    margin-top: 10%;
+    width: 450px;
+    height: 270px;
+    background-color: white;
+    border: 5px solid black;
+}
+.two{
+    justify-content: center;
+    margin-left: 20px;
+}
+h2{
+    position: relative;
+    top: 0px;
+   margin-left: 50px;
+}
+.icon{
+    font-size: 25px;
+    padding: 12px;
+    margin-left: 20px;
+}
+.icon a{
+    margin-left: 50px;
+    color: rgb(64, 64, 249);
+}
+
+input{
+    border-radius: 4px;
+    height: 30px;
+    width: 400px;
+  
+}
+#send{
+    font-size: 17px;
+    width: 80px;
+    color: white;
+    font-family: 'Times New Roman';
+    border-radius: 4px;
+    transition: .4s ease;
+    cursor: pointer;
+    margin-left: 5px;
+    padding:5px;
+    background-color: rgb(78, 78, 237);
+    font-size: 10px;
+    font-style: italic;
+    font-family:'Segoe UI';
+
+}
+   
+@media(max-width:1200px) {
+    label{
+        font-size: 23px;
+    }
+    #reg{
+        font-size: 30px;
+      
+    }
+    h2{
+        font-size: 35px;
+        text-align: left
+    }
+    .one{
+        width: 250px;
+       margin-left: 10px;
+    }
+    .two h2{
+        justify-content: left;
+        margin-left: 0px;
+        font-size: 15px;
+    }
+    label{
+        width: 100px;
+    }
+}

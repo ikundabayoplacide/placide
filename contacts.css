@@ -1,0 +1,50 @@
+body{
+    padding: 30px;
+}
+.page{
+    color: blue;
+    font-size: 25;
+}
+.input_wrapper{
+margin: 23px 0;
+
+}
+input{
+    padding: 10px;
+    color: burlywood;
+    background-color: aquamarine;
+    font-size: large;
+    width: auto;
+    border-radius: 5px;
+    font-style: italic;
+
+}
+.adding{
+    font-size: large;
+    color: chartreuse;
+    font-style: oblique;
+    background-color: cadetblue;
+    padding:  10px;
+    border-radius: 5px;
+}
+
+.conractinitoal{
+    background-color: blue;
+width: 30px;
+
+    height: 30px;
+    color: blanchedalmond;
+    border-radius: 18px;
+    display: flex;
+   opacity: 0.7;
+    justify-content: center;
+    align-items: center;
+
+}
+.fullname{
+   font-size:larger;
+    font-style: oblique;
+    align-content: center;
+   padding: 8px;
+   display: flex; 
+}

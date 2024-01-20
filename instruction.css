@@ -1,0 +1,28 @@
+button{ border-radius: 10px;
+    background-color: rgb(9, 94, 26);
+    color: azure;
+    width: auto;
+    height: 27px;
+}
+u{
+    color: rgb(60, 150, 120);
+}
+.gitar{
+    width: max-content;
+    height: max-content;
+    color: azure;
+    font-size: 16px;
+    text-decoration: none;
+}
+.music{
+    top: 0;
+    color: white;
+    background-color: rgb(0, 0, 0);
+    font-size: 30px;
+}
+#train{
+    display: flex;
+}
+#train2{
+    margin-left: 100px;
+}

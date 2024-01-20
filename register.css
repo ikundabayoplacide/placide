@@ -1,0 +1,15 @@
+.msg{
+    width: 300px;
+    height: 100px;
+    border-radius: 10px;
+
+}
+.login{
+background-color: rgb(0, 160, 252);
+border-radius: 30px;
+width: 350px;
+height: 470px;
+}
+button{
+    text-align: center;
+}

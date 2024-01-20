@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    /* Basic navigation styles */
+    ul.nav {
+      list-style: none;
+      padding: 0;
+      display: flex;
+    }
+
+    ul.nav li {
+      margin-right: 20px;
+      position: relative;
+    }
+
+    /* Animation styles */
+    ul.nav li a {
+      text-decoration: none;
+      color: #333;
+      position: relative;
+      transition: color 0.3s ease;
+    }
+
+    /* Hover animation */
+    ul.nav li a:hover {
+      color: #e74c3c;
+    }
+
+    /* Underline animation */
+    ul.nav li a::before {
+      content: "";
+      position: absolute;
+      width: 100%;
+      height: 2px;
+      background-color: #e74c3c;
+      bottom: -5px;
+      left: 0;
+      transform: scaleX(0);
+      transform-origin: left center;
+      transition: transform 0.3s ease;
+    }
+
+    ul.nav li a:hover::before {
+      transform: scaleX(1);
+    }
+  </style>
+</head>
+<body>
+  <!-- Your webpage content here -->
+
+  <ul class="nav">
+    <li><a href="#">Home</a></li>
+    <li><a href="#">About</a></li>
+    <li><a href="#">Services</a></li>
+    <li><a href="#">Portfolio</a></li>
+    <li><a href="#">Contact</a></li>
+  </ul>
+</body>
+</html>

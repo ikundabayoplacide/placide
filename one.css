@@ -1,0 +1,28 @@
+body{
+    background-color: aquamarine;
+    margin: 20px;
+    padding: 15px;
+}
+#divone{
+    padding: auto;
+    margin: 70px;
+    border-radius: 5px;
+    background-color: darkolivegreen;
+    height: 500px;
+    font-size: large;
+    color: coral;
+}
+#one{
+    width: 500px;
+    height: 40px;
+    margin: 5px;
+    background-color: rgb(218, 154, 77);
+    color: black;
+    border-radius: 5px;
+}
+#but{
+    width: 100px;
+    height: 40px;
+    font-size: large;
+    border-radius: 5px;
+}

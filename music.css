@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+.train{
+    margin-left: 0px;
+    display: inline-flex;
+    background-color: black;
+    color: white;
+
+}
+.train div{
+    margin-left: 20px;
+    margin-top: 10px;
+}
+.music{
+    font-size: 35px;
+    background-color: black;
+    color: white;
+    height: 40px;
+    text-align: center;
+}
+.music-button{
+   
+    color: white;
+    text-decoration: none;
+    border-top: none;
+}
+@media(max-width:1200px){
+    .music{  
+        font-size: 25px;
+    }
+    #train3{
+        display: none;
+    }
+      
+    }
